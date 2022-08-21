@@ -1,0 +1,9 @@
+packages:
+  - name: monday
+    actions:
+      - name: executeAction
+        limits:
+          timeout: 5000
+          memory: 256      
+environment:
+  MONDAY_SIGNING_SECRET: ${MONDAY_SIGNING_SECRET}
